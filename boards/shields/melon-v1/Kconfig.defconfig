@@ -1,6 +1,6 @@
 if SHIELD_MELON_V1_LEFT
 
-config ZKM_KEYBOARD_NAME
+config ZMK_KEYBOARD_NAME
     default "Melon V1"
 
 config ZMK_SPLIT_ROLE_CENTRAL
