@@ -73,7 +73,7 @@
     };
 };
 
-position_map {
+&position_map {
     compatible = "zmk,physical-layout-position-map";
 
     physical_posmap0: base {
