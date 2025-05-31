@@ -1,6 +1,6 @@
 #include "melon-v1.dtsi"
 
-&default_transform {
+&default_transform0 {
     col-offset = <7>;
 };
 
