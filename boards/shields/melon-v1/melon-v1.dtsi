@@ -5,10 +5,11 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
+        zmk,matrix-transform = &default_transform0;
         zmk,physical-layout = &physical_layout0;
     };
 
-    default_transform: keymap_transform0 {
+    default_transform0: keymap_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <13>;
         rows = <5>;
