@@ -1,0 +1,13 @@
+file_format: "1"
+id: melonv1
+name: Melon v1
+type: shield
+url: https://github.com
+requires:
+  - pro_micro
+features:
+  - keys
+  - studio
+siblings:
+  - melon_v1_left
+  - melon_v1_left
