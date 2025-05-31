@@ -1,6 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include "melon_v1-layouts.dtsi"
+#include <melon_v1-layouts.dtsi>
 
 / {
     chosen {
