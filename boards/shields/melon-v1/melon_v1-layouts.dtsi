@@ -3,6 +3,7 @@
 / {
     physical_layout0: physical_layout0 {
         compatible = "zmk,physical-layout";
+        transform = &default_transform0;
         display-name = "Default Layout";
 
         keys  //                     w   h    x    y     rot    rx    ry
@@ -72,6 +73,11 @@
             ;
     };
 };
+
+// label: node name {
+//     properties definition
+//     child nodes
+// }
 
 / { 
     position_map {
