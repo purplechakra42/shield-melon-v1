@@ -9,24 +9,24 @@
             timeout-ms = <20>;
             key-positions = <22 23>; // JK
             bindings = <&kp LPAR>;
-        }
+        };
         combo_closeBracket {
             timeout-ms = <20>;
             key-positions = <23 24>; // KL
             bindings = <&kp RPAR>;
-        }
+        };
         combo_openSquare {
             timeout-ms = <20>;
             key-positions = <35 36>; // M,
             bindings = <&kp LBKT>;
-        }
+        };
         combo_closeSquare {
             timeout-ms = <20>;
             key-positions = <36 37>; // ,.
             bindings = <&kp RBKT>;
-        }
-    }
-}
+        };
+    };
+};
 
 / {
     keymap {
