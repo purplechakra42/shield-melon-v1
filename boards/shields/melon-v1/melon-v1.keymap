@@ -7,27 +7,27 @@
         compatible = "zmk,combos";
         combo_openBracket {
             timeout-ms = <20>;
-            key-positions = <22 23>; // JK
+            key-positions = <34 35>; // JK
             bindings = <&kp LPAR>;
         };
         combo_closeBracket {
             timeout-ms = <20>;
-            key-positions = <23 24>; // KL
+            key-positions = <35 36>; // KL
             bindings = <&kp RPAR>;
         };
         combo_openSquare {
             timeout-ms = <20>;
-            key-positions = <35 36>; // M,
+            key-positions = <47 48>; // M,
             bindings = <&kp LBKT>;
         };
         combo_closeSquare {
             timeout-ms = <20>;
-            key-positions = <36 37>; // ,.
+            key-positions = <48 49>; // ,.
             bindings = <&kp RBKT>;
         };
         combo_enter {
             timeout-ms = <20>;
-            key-positions = <16 17 18>; // ASD
+            key-positions = <28 29 30>; // ASD
             bindings = <&kp RET>;
         };
     };
