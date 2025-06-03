@@ -6,11 +6,11 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-endif 
+endif # left
 
 if SHIELD_MELON_V1_LEFT || SHIELD_MELON_V1_RIGHT
 
 config ZMK_SPLIT
     default y
 
-endif
+endif # leftright
