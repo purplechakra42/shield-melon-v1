@@ -25,6 +25,11 @@
             key-positions = <36 37>; // ,.
             bindings = <&kp RBKT>;
         };
+        combo_enter {
+            timeout-ms = <20>;
+            key-positions = <16 17 18>; // ASD
+            bindings = <&kp RET>;
+        };
     };
 };
 
