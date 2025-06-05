@@ -48,7 +48,7 @@
         combo_equals {
             timeout-ms = <20>;
             key-positions = <9 10>; // 89
-            bindings = <&kp EQUALS>;
+            bindings = <&kp EQUAL>;
         };
         combo_plus {
             timeout-ms = <20>;
